@@ -1,0 +1,65 @@
+.header-middle{
+    padding: 32px 0;
+        .header-wrapp{
+            .logo{
+                width: 20%;
+                margin-right: 60px;
+                a{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .header-search{
+                width: 50%;
+                padding: 0 10px;
+                border-color: $primaryColor !important;
+                input{
+                    padding: 0 20px;
+                    border-left: 1px solid #ddd !important;
+                    margin-left: 19px;
+                    border-radius: 0;
+                }
+                button{
+                    background: none;
+                    border: 0;
+                }
+            }
+            .header-cart-wrapp{
+                width: 30%;
+                .single-cart-items{
+                    margin-right: 20px;
+                    a{
+                        display: flex;
+                        span{
+                            margin-bottom: 0;
+                            font-size: 14px;
+                            width: 30px;
+                            height: 30px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: 1px solid $primaryColor;
+                            color: $primaryColor;
+                            border-radius: 50%;
+                            margin-right: 10px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: $primaryColor;
+                            text-transform: capitalize;
+                        }
+                    }
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+}
+.w-85{
+    width: 85%;
+}
+.nice-select.form-control.border-0{
+    padding-top: 0 !important;
+}

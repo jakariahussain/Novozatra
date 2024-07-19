@@ -1,0 +1,111 @@
+.product-banner-shop{
+    height: 350px;
+    @include bgProperty(cover,center,no-repeat);
+    position: relative;
+    z-index: 0;
+    
+    .product-banner-content{
+        h5{
+            color: #000;
+            font-size: 30px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        h2{
+            color: #fff;
+            font-size: 45px;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 20px 0px;
+        }
+        a{
+            color: #fff !important;
+            background: $primaryColor !important;
+            padding: 15px 30px !important;
+        }
+    }
+}
+
+.product-shop-area{
+    padding: $sectionPadding;
+    .product-filter{
+        margin-bottom: 27px;
+        h6{
+            font-weight: 700;
+            font-size: 18px;
+        }
+        a{
+            font-size: 15px;
+            color: #000;
+        }
+    }
+    .product-categories-tag{
+        ul{
+            li{
+                a{
+                    padding: 5px 0;
+                    font-size: 14px;
+                    display: inline-block;
+                    color: #333;
+                }
+            }
+        }
+        .price-bugdet-form{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            input{
+                padding: 6px 1px !important;
+            }
+            button{
+                background: $primaryColor !important;
+                color: #fff !important;
+            }
+        }
+        .form-check{
+            margin-bottom: 10px !important;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0;
+}
+
+.product-filtering-wrapp{
+    margin-top: -8px;
+    .sortProduct{
+        h4{
+            font-weight: 600;
+            font-size: 18px;
+            margin-right: 20px;
+        }
+    }
+}
+
+
+.product-shop-area{
+    .featured-product-thumb{
+        margin-top: 20px !important;
+    }
+}
+.shop-pagination{
+    border-top: 1px solid #eee;
+    .page-item{
+        .page-link{
+            color: $primaryColor;
+        }
+    }
+}
+.show-pagination{
+    p{
+        color: rgb(167, 164, 164);
+        span{
+            color: #333 !important;
+        }
+    }
+}
+.pagination{
+    margin-top: 16px;
+}

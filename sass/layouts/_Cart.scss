@@ -1,0 +1,135 @@
+.cart-breadcurb{
+    padding: $sectionPadding;
+    padding-bottom: 30px;
+    .active {
+        font-size: 20px;
+        font-weight: 700;
+        color: #044063;
+        letter-spacing: -0.025em;
+    }
+    .breadcrumb-item+.breadcrumb-item::before{
+        content: ">";
+    }
+}
+#shop-table-cart{
+    .shopping-cart-wrapp{
+        margin-bottom: 0 !important;
+        padding: 16px 0;
+        a{
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+    tbody, td, tfoot, th, thead, tr{
+        border-color: #eee !important;
+    }
+    .cart-pricing-table{
+        h4{
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: #eee !important;
+}
+#cart-shopping-view{
+    .text-white{
+        color: #fff !important;
+    }
+    a{
+        margin-right: 10px !important;
+    }
+    .btn-primary.disabled, .btn-primary:disabled {
+        color: #fff;
+        background-color: #eee;
+        border-color: #eee !important;
+    }
+}
+.discount-cupon-cart{
+    margin-top: 50px;
+    form.coupon {
+        h5 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        input{
+            border: 0 !important;
+            border-bottom: 1px solid #eee !important;
+        }
+    }
+}
+.cart-area{
+    padding: 0 0 60px 0;
+}
+
+.cart-total-summary{
+    h3.cart-title{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .cart-subtotal{
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+        h6{
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+    .cart-shipping-methods{
+        margin-top: 20px;
+        padding-bottom: 20px;
+        .form-check {
+            padding: 5px 25px;
+            &:first-child{
+                padding-top: 0;
+            }
+        }
+    }
+    p.shipping-destination {
+        text-transform: capitalize;
+        padding-bottom: 15px;
+    }
+    .order-total {
+        padding: 20px 0;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 20px;
+        label, span{
+            font-weight: 600;
+        }
+    }
+    .proceedCheckOut{
+        background: $primaryColor !important;
+        color: #fff !important;
+    }
+    .nice-select{
+        line-height: 27px !important;
+    }
+    .shipping-calculators-form{
+        .form-control{
+            border-radius: 0;
+        }
+    }
+}
+#section-padding{
+    padding: 60px 0;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    .stock-status{
+        text-align: left;
+    }
+    .status-action-btn{
+        a{
+            margin-right: 10px;
+            padding: 5px 10px !important;
+            font-size: 13 !important;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}

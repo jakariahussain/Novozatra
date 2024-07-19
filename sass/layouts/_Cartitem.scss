@@ -1,0 +1,73 @@
+.offcanvas-body{
+    padding: 20px !important;
+}
+.offcanvas-header {
+    border-bottom: 1px solid #ddd;
+}
+.offcanvas-end{
+    border-left: 0;
+}
+h3.header-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.shopping-cart-wrapp {
+    margin-bottom: 20px !important;
+    .shopping-cart-content {
+        width: 70%;
+        padding-right: 15px;
+        a{
+            font-size: 14px;
+            padding-bottom: 10px;
+            color: #000;
+            display: block;
+        }
+        h4{
+            font-weight: 600;
+            font-size: 18px;
+            color: $primaryColor;
+            span{
+                color: #ddd;
+                font-weight: 300 !important;
+            }
+        }
+    }
+    .shopping-cart-removed {
+        width: 30%;
+        @include bgProperty(cover,center,no-repeat);
+        height: 100px;
+        position: relative;
+        span{
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            right: -10px;
+            top: -10px;
+            background: $primaryColor;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+.total-cart-cost{
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 10px;
+    .cost-content h4 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 600;
+        color: black;
+        text-transform: capitalize;
+    }
+    .cart-action{
+        margin-top: 30px;
+    }
+}

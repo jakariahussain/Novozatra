@@ -1,0 +1,51 @@
+.contact-area{
+    padding: $sectionPadding;
+    .contact-form{
+        label{
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        input{
+            padding: 10px;
+            border-radius: 0;
+        }
+        textarea{
+            resize: none;
+            height: 150px;
+            border-radius: 0;
+        }
+        button{
+            background: $primaryColor !important;
+            color: #fff !important;
+            padding: 15px 10px !important;
+        }
+    }
+}
+
+.contact-address{
+    padding-left: 50px;
+    .contact-single-location{
+        margin-top: 30px;
+        .icon-box{
+            margin-right: 15px;
+            font-size: 16px;
+            width: 30px;
+            height: 30px;
+            border: 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #044063;
+            color: #fff;
+        }
+        a{
+            color: $primaryColor;
+            font-size: 15px;
+        }
+    }
+}
+.nice-select.open{
+    .list{
+        width: 100%;
+    }
+} 

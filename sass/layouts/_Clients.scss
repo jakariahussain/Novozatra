@@ -1,0 +1,14 @@
+.our-clients{
+    padding: $sectionPadding;
+    padding-top: 0;
+    .clients-brand-wrapp{
+        .client-single-brand{
+            padding: 10px;
+            border: 1px solid #eee;
+            img{
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+    }
+}

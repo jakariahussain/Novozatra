@@ -1,0 +1,46 @@
+.login{
+    background: $primaryColor;
+    width: 100%;
+    height: 100vh;
+    .login-wrapp{
+        background: #fff;
+        border-radius: 4px;
+        width: 500px;
+        margin: 0 auto;
+        padding: 30px 50px;
+        form{
+            padding-bottom: 30px;
+            label{
+                width: 100%;
+                text-align: left !important;
+            }
+        }
+        .product-media{
+            ul{
+                transform: scale(1);
+                opacity: 1;
+                li{
+                    margin-right: 10px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.heading-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.createAc{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 15px;
+    display: block;
+}
+h4.heading-title{
+    margin-bottom: 0px;
+    font-size: 16px;
+}

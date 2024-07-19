@@ -1,0 +1,102 @@
+.featured-product-thumb{
+    height: 230px;
+    @include bgProperty(cover, center,no-repeat);
+    transition: $primarTransition;
+    &:hover{
+        .product-media{
+            padding-top: 15px;
+        }
+        ul{
+            transform: scaleY(1);
+            opacity: 1;
+        }
+    }
+}
+.product-media{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+    padding-right: 15px;
+    transition: $primarTransition;
+    ul{
+        transform: scaleY(0);
+        opacity: 0;
+        transition: $primarTransition;
+        transform-origin: bottom;
+        li{
+            margin-bottom: 8px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            a{
+                width: 35px;
+                height: 35px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                color: #999;
+                font-size: 15px;
+                transition: $primarTransition;
+                &:hover{
+                    background: $primaryColor;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.populer-department{
+    .nav{
+        margin-bottom: 40px !important;
+    }
+    li.nav-item {
+        margin-right: 20px;
+    }
+    .nav-pills .nav-link {
+        background: 0 0;
+        padding: 3px 25px;
+        border: 1px solid $primaryColor;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 500;
+        color: $primaryColor;
+        border-radius: 0;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+        border-color: $primaryColor !important;
+        color: #fff !important;
+        background: $primaryColor !important;
+    }
+}
+
+.product-content{
+    padding-top: 20px;
+    p{
+        font-size: 14px;
+    }
+    h4{
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+.rating{
+    padding: 5px 0;
+    ul{
+        li{
+            margin-right: 5px;
+            color: $textColor;
+            font-size: 13px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
+.trandings-products-items{
+    margin-top: 20px;
+}

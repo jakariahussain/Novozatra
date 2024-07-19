@@ -1,0 +1,267 @@
+#product-view-area{
+    padding-bottom: 60px;
+    .deal-wrapper-items{
+        padding: 0;
+        border:0;
+    }
+    .single-deal-content{
+        .title-deal{
+            padding-bottom: 0;
+            margin-bottom: 0;
+            border-bottom: 0;
+        }
+        .product-size{
+            button{
+                font-size: 13px;
+                padding: 4px 10px !important;
+                margin-right: 5px;
+            }
+        }
+    }
+    .product-bm-wrapper{
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 10px;
+        padding: 20px 0;
+        .pr-thm-profile{
+            margin-right: 10px;
+            @include bgProperty(contain, center,no-repeat);
+            width: 20% !important;
+        }
+        .product-meta-keycode{
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    .product-rating{
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 10px;
+        ul{
+            li{
+                display: flex;
+                font-size: 14px;
+                span{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .frequently-product-wrapp{
+        margin: 40px 0;
+        .heading-title{
+            font-size: 25px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            text-transform: capitalize;
+            font-weight: 700;
+        }
+        .frequently-product-items{
+            .single-frequently-items{
+                text-align: center;
+                width: 100%;
+                margin-right: 35px;
+                &:last-child{
+                    margin-right: 0;
+                }
+                .product-frequently-thumb{
+                    height: 200px;
+                    width: 100%;
+                    @include bgProperty(cover, center, no-repeat);
+                    position: relative;
+                    input{
+                        cursor: pointer;
+                        width: 10%;
+                        height: 10%;
+                        position: absolute;
+                        left: 12px;
+                        top: 12px;
+                    }
+                }
+                a{
+                    font-size: 13px;
+                    color: $primaryColor;
+                    display: block;
+                    padding: 10px 0 5px 0;
+                }
+                h4{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+        }
+        .frequently-bought-price{
+            h2{
+                font-weight: 700;
+                font-size: 36px;
+            }
+            p{
+                padding: 10px 0;
+            }
+            a{
+                margin-top: 10px;
+            }
+        }
+    }
+    .frequently-tabs-description{
+        .frequently-tabs-content{
+            padding-right: 30px;
+            margin-top: 20px;
+            width: 70%;
+            h3{
+                font-weight: 600;
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+            p{
+                font-size: 14px;
+                padding-bottom: 15px;
+            }
+            ul{
+                li{
+                    font-size: 14px;
+                    display: flex;
+                    margin-bottom: 3px;
+                    span{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        .fr-video{
+            width: 30%;
+            height: 290px;
+            @include bgProperty(cover, center,no-repeat);
+            a{
+                background: #fff;
+                color: $primaryColor;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .frequently-sub-item{
+        margin-top: 40px;
+        .frequently-single-sub{
+            padding-right: 10px;
+            &:last-child{
+                margin-right: 0;
+            }
+            h3{
+                font-size: 16px;
+                font-weight: 600;
+                padding-bottom: 10px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    .freqently-list{
+        margin-top: 20px;
+        ul{
+            li{
+                display: inline-grid;
+                padding-right: 25px;
+                font-size: 15px;
+            }
+        }
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: $textColor;
+        border-bottom: 1px solid $textColor;
+        border-radius: 0;
+        background: none;
+    }
+    .nav-item{
+        button{
+            color: #000;
+            font-weight: 600;
+        }
+    }
+    .frequently-customer-review{
+        .single-customer-reviews{
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            .single-customer-profile-wrapp{
+                margin-right: 20px;
+                .frequently-customer-profile{
+                    width: 100px;
+                    height: 100px;
+                    @include bgProperty(cover, center, no-repeat);
+                    border-radius: 50%;
+                }
+            }
+        }
+        .frequently-customer-profile-name{
+            h4{
+                font-size: 20px;
+                font-weight: 700;
+                text-transform: capitalize;
+                span{
+                    font-weight: 400;
+                    font-size: 12px;
+                }
+            }
+            .rating{
+                padding: 10px 0;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .customer-form{
+            margin-top: 50px;
+            h3{
+                font-size: 25px;
+                font-weight: 600;
+                text-transform: capitalize;
+                margin-bottom: 20px;
+            }
+            input{
+                border-radius: 0;
+                border-color: #eee;
+                margin-bottom: 15px;
+            }
+            textarea{
+                width: 100%;
+                border-color: #eee;
+                border-radius: 0;
+                margin-bottom: 25px;
+            }
+        }
+        .nice-select{
+            line-height: 30px;
+        }
+    }
+    .related-product-view{
+        margin-top: 40px;
+        h3{
+            font-weight: 700;
+            font-size: 25px;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            text-transform: capitalize;
+        }
+        .related-product-wrapp{
+            .related-pr-items {
+                width: 100%;
+                margin-right: 20px;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .pl-4{
+        padding-left: 40px !important;
+    }
+}

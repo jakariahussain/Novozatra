@@ -1,0 +1,45 @@
+.header-top{
+    padding: 10px 0;
+    background: #eee;
+    .header-top-wrapp{
+        .header-left{
+            p{
+                font-size: 14px;
+                color: $primaryColor;
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: 1px;
+            }
+        }
+        .header-right{
+            .myAcounts{
+                ul{
+                    li{
+                        margin-right: 30px;
+                        a{
+                            font-size: 14px;
+                            color: $primaryColor;
+                        }
+                    }
+                }
+            }
+            .login-acounts{
+                ul{
+                    li{
+                        span{
+                            color: $primaryColor;
+                        }
+                        margin-right: 10px;
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                        a{
+                            font-size: 14px;
+                            color: $primaryColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

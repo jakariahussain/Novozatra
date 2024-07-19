@@ -1,0 +1,31 @@
+.offer-banners{
+    padding: $sectionPadding;
+    .offer-banner-content{
+        @include bgProperty(cover, center, no-repeat);
+        padding: 30px;
+        h4{
+            font-size: 18px;
+            span{
+                text-transform: uppercase;
+                color: $textColor;
+                font-weight: 800;
+                padding-left: 5px;
+            }
+        }
+        h2{
+            font-size: 25px;
+            font-weight: 700;
+            padding: 10px 0;
+            letter-spacing: 1px;
+            padding-bottom: 0;
+        }
+        p{
+            font-size: 20px;
+            padding-bottom: 16px;
+        }
+        a{
+            background: $primaryColor !important;
+            color: #fff !important;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.top-categories-area{
+    padding: $sectionPadding;
+    padding-bottom: 0;
+    .top-categories-wrapp{
+        margin-top: 20px;
+        .categories-month{
+            margin-right: 18px !important;
+            margin-bottom: 20px;
+            text-align: center;
+            &:last-child{
+                margin-right: 0;
+            }
+            .single-categories-items{
+                width: 100%;
+                height: 200px;
+                @include bgProperty(cover, center,no-repeat);
+                position: relative;
+                transition: $primarTransition;
+            }
+            .single-item-content{
+               
+                text-align: center;
+                width: 100%;
+                padding: 10px 0 3px 0;
+                transition: $primarTransition;
+                h6{
+                    font-size: 13px;
+                    font-weight: 600;
+                }
+                a{
+                    display: block;
+                    color: black;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 13px;
+                }
+            }
+            &:hover{
+                .single-item-content{
+                    background: $primaryColor;
+                    color: #fff !important;
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

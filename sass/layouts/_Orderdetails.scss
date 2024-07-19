@@ -1,0 +1,74 @@
+.order-details-area{
+    padding-bottom: 30px;
+    .order-details-wrapp{
+        ul{
+            margin-bottom: 20px;
+            li{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 5px 0;
+                color: $primaryColor;
+                font-size: 15px;
+            }
+        }
+        .order-details-lists{
+            h4{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-top: 1px solid #eee;
+                padding: 15px 0;
+                font-size: 16px;
+                font-weight: 700;
+                text-transform: capitalize;
+            }
+        }
+        .order-details-content{
+            .heading-title{
+                margin-bottom: 20px !important;
+            }
+        }
+    }
+}
+
+.sub-order-area{
+    .sub-order-wrapp{
+        .heading-title{
+            margin-bottom: 20px !important;
+        }
+        .sub-order-alert{
+            border: 2px dotted #eee;
+            margin-bottom: 40px;
+        }
+    }
+}
+.subOrder-table tbody, td, tfoot, th, thead, tr {
+    padding: 10px 0;
+}
+.sub-orderTable{
+    margin-bottom: 30px;
+}
+.billing-address{
+    margin-bottom: 40px;
+    .billing-address-content{
+        margin-right: 15px;
+        &:last-child{
+            margin-right: 0;
+        }
+        h3{
+            font-size: 15px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        ul{
+            li{
+                padding-top: 6px;
+                color: #666;
+                font-size: 14px;
+            }
+        }
+    }
+}

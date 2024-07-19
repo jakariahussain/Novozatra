@@ -1,0 +1,40 @@
+.about-area{
+    padding: $sectionPadding;
+    .about-thumb{
+        height: 350px;
+        overflow: hidden;
+        @include bgProperty(cover,center,no-repeat);
+    }
+    .about-content{
+        margin-bottom: 60px;
+        p{
+            font-size: 15px;
+            padding-top: 15px;
+        }
+    }
+}
+.accordion-button::after {
+    content: "+";
+    background-image:none; 
+}
+.accordion-button:not(.collapsed)::after {
+    content: "-";
+    background-image:none;
+    transform: rotate(0deg);
+}
+.accordion-button,.accordion-button:not(.collapsed){
+    background: $primaryColor;
+    color: #fff;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+    border: 0 !important;
+}
+.about-article{
+    padding-right: 40px;
+    h2.heading-title{
+        font-size: 22px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+}

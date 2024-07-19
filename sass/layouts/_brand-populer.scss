@@ -1,0 +1,22 @@
+.populer-brand-area{
+    padding: $sectionPadding;
+    .populer-brand-wrapp{
+        margin-top: 40px;
+        .single-populer-brands{
+            text-align: center;
+            .brand-populer-thumb{
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                @include bgProperty(cover, center, no-repeat);
+                margin: 0 auto;
+            }
+            h6{
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 16px;
+                padding-top: 10px;
+            }
+        }
+    }
+}

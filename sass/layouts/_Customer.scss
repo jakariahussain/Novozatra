@@ -1,0 +1,25 @@
+.customer-support{
+    padding: $sectionPadding;
+    .customer-wrap{
+        padding: 14px;
+        .icon-box{
+            span{
+                font-size: 30px;
+                color: $primaryColor;
+            }
+        }
+        .customer-content {
+            padding-left: 11px;
+            h3 {
+                font-size: 15px;
+                font-weight: 600;
+                letter-spacing: .5px;
+                text-transform: capitalize;
+            }
+            p {
+                font-size: 14px;
+                color: #666;
+            }
+        }
+    }
+}
